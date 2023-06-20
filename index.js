@@ -55,7 +55,7 @@ var checkAuthenticated = (req, res, next) => {
 }
 
 //GetAllEmployee
-app.get('/employee', keycloak.protect(), function (req, res, next) {
+app.get('/employee', checkAuthenticated, function (req, res, next) {
 
     let result = Modelclass.get_all();
     result.then(function (value) { console.log(value); res.json(value) })
