@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/3e77fc15-f784-49a5-8a4b-9573231c6ce9/resourceGroups/node-keycloak_group/providers/Microsoft.Web/sites/node-keycloak",
+    "appService.deploySubpath": "."
+}
